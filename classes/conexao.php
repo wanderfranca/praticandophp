@@ -1,9 +1,10 @@
 <?php
 
-$host = 'localhost';
-$usuario = 'root';
-$senha = '';
-$bd = 'praticandophp';
+$host       = 'localhost';
+$usuario    = 'root';
+$senha      = '';
+$bd         = 'praticandophp';
+
 
 $mysqli = new mysqli($host, $usuario, $senha, $bd);
 
